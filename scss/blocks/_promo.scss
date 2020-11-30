@@ -1,0 +1,26 @@
+.promo {  
+    width: 100%;
+    height: calc(245px + 310 * ((100vw - 320px) /(1366 - 320)));
+    padding-top: calc(132px + 85 * ((100vw - 320px) /(1366 - 320)));
+    display: flex;
+    justify-content: flex-end;
+    align-items: center + 10px;
+    .whiteCard{
+        width: calc(170px + 374 * ((100vw - 320px) /(1366 - 320)));
+        height: calc(78px + 185 * ((100vw - 320px) /(1366 - 320)));
+        background-color: #fff;
+        padding: 0 calc(15px + 68 * ((100vw - 320px) /(1366 - 320))) 0 calc(8px + 35 * ((100vw - 320px) /(1366 - 320)));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .txt{
+            font-weight: normal;
+            font-size: calc(12px + 26 * ((100vw - 320px) /(1366 - 320)));
+            color: #006DAC;
+            text-align: left;
+            span {
+                color:#FF058C;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;    
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    background-color: white;
+    position: relative;
+}
+.grid {
+    width: calc(294px + 867 * ((100vw - 320px) /(1366 - 320)));
+    margin: 0 auto;
+}
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/goods";
+@import "blocks/aboutUs";
+@import "blocks/delivery";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/forms";
+@import "blocks/pageup";
+@import "blocks/overlayCard";
+
+
